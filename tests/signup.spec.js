@@ -1,6 +1,6 @@
 import { test, expect } from "@playwright/test";
 
-test.skip(true, "Skipping signup tests for now");
+test.skip(false, "Skipping signup tests for now");
 
 test.use({ storageState: "emptyStorageState.json" });
 

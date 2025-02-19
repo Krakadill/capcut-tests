@@ -48,16 +48,16 @@ export default defineConfig({
       use: { ...devices["Desktop Firefox"], storageState: "storageState.json" },
     },
 
-    /* {
-       name: "webkit",
+    {
+      name: "webkit",
       use: {
         ...devices["Desktop Safari"],
         launchOptions: {
           args: ["--disable-animations", "--disable-smooth-scrolling"],
         },
         storageState: "storageState.json",
-      }, 
-    }, */
+      },
+    },
 
     /* Test against mobile viewports. */
     // {
