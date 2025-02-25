@@ -1,5 +1,10 @@
 // @ts-check
 import { defineConfig, devices } from "@playwright/test";
+import { fileURLToPath } from "url";
+import path from "path";
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 /**
  * Read environment variables from file.
@@ -15,7 +20,7 @@ import { defineConfig, devices } from "@playwright/test";
 export default defineConfig({
   globalSetup: process.env.SKIP_GLOBAL_SETUP
     ? undefined
-    : require.resolve("./global-setup"),
+    : path.resolve(__dirname, "global-setup.js"),
   testDir: "./tests",
   /* Run tests in files in parallel */
   fullyParallel: true,

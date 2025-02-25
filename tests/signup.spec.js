@@ -1,10 +1,11 @@
-import { test, expect } from "@playwright/test";
+import { test } from "@playwright/test";
+import { expect } from "chai";
 
-test.skip(true, "Skipping signup tests for now");
+test.skip(false, "Skipping signup tests for now");
 
 test.use({ storageState: "emptyStorageState.json" });
 
-test.describe("testing sign-up functionality", () => {
+test.describe("Test suite for sign-up functionality", () => {
   test("User should get error message for entering invalid Email", async ({
     page,
   }) => {
@@ -14,6 +15,7 @@ test.describe("testing sign-up functionality", () => {
       .getByRole("textbox", { name: "Enter email" })
       .fill("Wrong credential");
     await page.getByRole("button", { name: "Continue" }).click();
-    await expect(page.getByText("Enter a valid email address")).toBeVisible();
+    const errMsg = await page.getByText("Enter a valid email address");
+    expect(await errMsg.isVisible()).to.be.true;
   });
 });

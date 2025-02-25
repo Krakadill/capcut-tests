@@ -5,67 +5,67 @@
       "value": "en",
       "domain": "www.capcut.com",
       "path": "/",
-      "expires": 1774541985.744252,
+      "expires": 1775038268.816302,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_v2_spipe_web_id",
-      "value": "7473165624332730421",
+      "value": "7475297171202408509",
       "domain": "www.capcut.com",
       "path": "/",
-      "expires": 1771517994.857609,
+      "expires": 1772014278.586748,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_tea_web_id",
-      "value": "7473165635770942984",
+      "value": "7475297123211593233",
       "domain": "www.capcut.com",
       "path": "/",
-      "expires": 1740068394.857756,
+      "expires": 1740564678.586891,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "MUID",
-      "value": "16145CD531E6695530B5494D30FB6896",
+      "value": "291E71717E316F8111B164EF7FE86EBC",
       "domain": ".bing.com",
       "path": "/",
-      "expires": 1773677988.793295,
+      "expires": 1774174273.862791,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "CLID",
-      "value": "ad2dab8bc6834ede9d4111ecc0fc7fd6.20250219.20260219",
+      "value": "b9ce89343a06454b970a754143cde337.20250225.20260225",
       "domain": "www.clarity.ms",
       "path": "/",
-      "expires": 1771517988.098069,
+      "expires": 1772014271.445977,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
-      "name": "_clck",
-      "value": "1c7t5x7%7C2%7Cftk%7C0%7C1876",
-      "domain": ".capcut.com",
+      "name": "s_v_web_id",
+      "value": "verify_m7kbtp8l_qNRJrLDt_OsS5_4kYp_83xh_23jCsNKrq6Wk",
+      "domain": "www.capcut.com",
       "path": "/",
-      "expires": 1771517988,
+      "expires": -1,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "s_v_web_id",
-      "value": "verify_m7c4cmsq_K75t64Yx_jNKP_4Ysx_9EcJ_Bbi7xAfC2eWV",
-      "domain": "www.capcut.com",
+      "name": "_clck",
+      "value": "1cnzrgj%7C2%7Cftq%7C0%7C1882",
+      "domain": ".capcut.com",
       "path": "/",
-      "expires": -1,
+      "expires": 1772014271,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -75,17 +75,17 @@
       "value": "0",
       "domain": ".c.bing.com",
       "path": "/",
-      "expires": 1740586788.793401,
+      "expires": 1741083073.862881,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "SRM_B",
-      "value": "16145CD531E6695530B5494D30FB6896",
+      "value": "291E71717E316F8111B164EF7FE86EBC",
       "domain": ".c.bing.com",
       "path": "/",
-      "expires": 1773677988.79343,
+      "expires": 1774174273.862905,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -102,10 +102,10 @@
     },
     {
       "name": "MUID",
-      "value": "16145CD531E6695530B5494D30FB6896",
+      "value": "291E71717E316F8111B164EF7FE86EBC",
       "domain": ".clarity.ms",
       "path": "/",
-      "expires": 1773677989.968485,
+      "expires": 1774174273.958601,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -115,7 +115,7 @@
       "value": "0",
       "domain": ".c.clarity.ms",
       "path": "/",
-      "expires": 1740586789.968532,
+      "expires": 1741083073.958644,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -125,137 +125,157 @@
       "value": "0",
       "domain": ".c.clarity.ms",
       "path": "/",
-      "expires": 1739982589.968553,
+      "expires": 1740478873.95867,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "passport_csrf_token",
-      "value": "5c07e20670674c551e5647df2aae7961",
+      "value": "68375541000a9bb886e19ccf27f57c65",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1745165989.414575,
+      "expires": 1745662272.984583,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "passport_csrf_token_default",
-      "value": "5c07e20670674c551e5647df2aae7961",
+      "value": "68375541000a9bb886e19ccf27f57c65",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1745165989.414654,
+      "expires": 1745662272.984663,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "msToken",
+      "value": "Bb4diqprluiv0-yEaYoui6OiqyC1eLpHGv4kWiZ_choPNMM6nUXRP34VYEmnfLam_YJU6FjzElZ8pkXDZlz6BUcg2GuGQ_4fM-jzCx30GEzEmVLMWnDzgAGSLVLxrcOgm0vxY3ilRLAl",
+      "domain": ".capcutapi.com",
+      "path": "/",
+      "expires": 1741342276.223515,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "msToken",
+      "value": "Bb4diqprluiv0-yEaYoui6OiqyC1eLpHGv4kWiZ_choPNMM6nUXRP34VYEmnfLam_YJU6FjzElZ8pkXDZlz6BUcg2GuGQ_4fM-jzCx30GEzEmVLMWnDzgAGSLVLxrcOgm0vxY3ilRLAl",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1748254276,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "passport_mfa_token",
-      "value": "CjO5VZLG0mh7IwXufzv9LwZF3N4xeuVIXOaLR7MEj8RfGVdp18A%2BsfXWwq81UDAFPKINC5UaSQo8G7ByoLnr1BX5rKv6py5DYyBfvpCY%2BBZbYjsaSasogvsb75HUd0pZDo811igHBk%2FTDKh8l0TQl%2BX4y6EEEJ7%2B6Q0Y16mI7w4iAQSvDAN5",
+      "value": "CjMYFo7aTF7bw4v3OyxaGrZnFLDhjYPfyjoQ4RXtzffefEbMSwl7k3wLOfBOZqlqhejY6nMaSQo8S%2BTKEUWivclPtpt%2FafI1kD6dd73ywkxGcPLnykkSF4G7X%2FAKjUSDrl4zta%2FthLanolaI%2FzoaoBSTvJ01EPi%2B6g0Y16mI7w4iAQRmjrbe",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1745165991.637915,
+      "expires": 1745662276.305913,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "d_ticket",
-      "value": "e505cae7b9e2bf3eb3bd78b0e77a50696f435",
+      "value": "ae59f975428b55e59385f2260ee1d6dda4310",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517991.637995,
+      "expires": 1772014276.305997,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "odin_tt",
-      "value": "2238a9924d904fcd8ea9a243b2aa51cb80f5ca169905f77191d74038eb3af396b6a0f9cf6e904b870909d3b3f7305ae3aa2b737b6a9b4ba06b00f542ac62c346",
+      "value": "b925d6174a4a8594e67fdc41e895b8392d600fcc277791e3a1ea6451896e1fbfb9419f5416931e4fd5231447fd2e3ccc1ee2e2fd5c1abf7727f61176d1997892",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517991.638018,
+      "expires": 1772014276.306013,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "sid_guard",
-      "value": "a3e942b89e3a0f444f7b6a75cf70741a%7C1739981981%7C34560000%7CThu%2C+26-Mar-2026+16%3A19%3A41+GMT",
+      "value": "c1527f688ce02e7403d50376edcb502f%7C1740478261%7C34559998%7CWed%2C+01-Apr-2026+10%3A10%3A59+GMT",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771085991.638045,
+      "expires": 1771582276.306025,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "uid_tt",
-      "value": "257112071d96b2d81dda0ae0988d03be5f7a8047d045b545be6cdefc094fba66",
+      "value": "436dff7ce3738a81fe10c3e626d59ccf9031ee38522f840019f3570e863aa958",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.638071,
+      "expires": 1775038274.306036,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "uid_tt_ss",
-      "value": "257112071d96b2d81dda0ae0988d03be5f7a8047d045b545be6cdefc094fba66",
+      "value": "436dff7ce3738a81fe10c3e626d59ccf9031ee38522f840019f3570e863aa958",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.638098,
+      "expires": 1775038274.306047,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "sid_tt",
-      "value": "a3e942b89e3a0f444f7b6a75cf70741a",
+      "value": "c1527f688ce02e7403d50376edcb502f",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.638164,
+      "expires": 1775038274.306059,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "sessionid",
-      "value": "a3e942b89e3a0f444f7b6a75cf70741a",
+      "value": "c1527f688ce02e7403d50376edcb502f",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.638224,
+      "expires": 1775038274.306069,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "sessionid_ss",
-      "value": "a3e942b89e3a0f444f7b6a75cf70741a",
+      "value": "c1527f688ce02e7403d50376edcb502f",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.638255,
+      "expires": 1775038274.306078,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "sid_ucp_v1",
-      "value": "1.0.0-KGQ0ZDZkMTZhMGFiZTZmYTdiMzIwN2Q5ZGExNTE5NWU1ZTllYzRjYjAKIQiRiNSMrfmg2mcQnYnYvQYYnKAVIAwwqIjSvQY4AUDrBxADGgNzZzEiIGEzZTk0MmI4OWUzYTBmNDQ0ZjdiNmE3NWNmNzA3NDFh",
+      "value": "1.0.0-KGU4ZmZhOTgzNDQxYWVhZjFiZWQwZDZmZTRjNGE2ZGE2ODU4ZDc4YjkKIQiRiNSMrfmg2mcQta72vQYYnKAVIAwwqIjSvQY4AUDrBxADGgNzZzEiIGMxNTI3ZjY4OGNlMDJlNzQwM2Q1MDM3NmVkY2I1MDJm",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.63827,
+      "expires": 1775038274.30609,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
     },
     {
       "name": "ssid_ucp_v1",
-      "value": "1.0.0-KGQ0ZDZkMTZhMGFiZTZmYTdiMzIwN2Q5ZGExNTE5NWU1ZTllYzRjYjAKIQiRiNSMrfmg2mcQnYnYvQYYnKAVIAwwqIjSvQY4AUDrBxADGgNzZzEiIGEzZTk0MmI4OWUzYTBmNDQ0ZjdiNmE3NWNmNzA3NDFh",
+      "value": "1.0.0-KGU4ZmZhOTgzNDQxYWVhZjFiZWQwZDZmZTRjNGE2ZGE2ODU4ZDc4YjkKIQiRiNSMrfmg2mcQta72vQYYnKAVIAwwqIjSvQY4AUDrBxADGgNzZzEiIGMxNTI3ZjY4OGNlMDJlNzQwM2Q1MDM3NmVkY2I1MDJm",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1774541991.638284,
+      "expires": 1775038274.306101,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -265,7 +285,7 @@
       "value": "alisg",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517991.638303,
+      "expires": 1772014276.306118,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -275,7 +295,7 @@
       "value": "ge",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517991.638313,
+      "expires": 1772014276.306128,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -285,7 +305,7 @@
       "value": "uid",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517991.638323,
+      "expires": 1772014276.306137,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
@@ -295,27 +315,17 @@
       "value": "ge",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517991.638333,
+      "expires": 1772014276.306146,
       "httpOnly": true,
       "secure": false,
       "sameSite": "Lax"
     },
     {
-      "name": "x_logid",
-      "value": "202502191619412985C639A9211F3CA0C9",
-      "domain": "www.capcut.com",
-      "path": "/",
-      "expires": 1739982112.558689,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
-    },
-    {
       "name": "msToken",
-      "value": "6Fu5-Jak0iF0u93GaT-7rMwAQAvVzolBnIiKVkfCL0OzLFwKPonuiudzyhaMR0e5DN3bo1zI5USZ9tVFLNGttVVFSKTsgz70gf4AqBDVdQ3m",
+      "value": "1V8bYwi-_XjwdZIeu-jWl7N8hiwKysEPsrmBCCyXgCWd1x64EbGbTWTyPGGdm7cyc07pMEusu0clQjJb91d7mw7UP5K_dc5KvF1MgNoA7k7WsNgcDBDVJuw6pWW_4XNn8JVWbnJKzzel",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1740845993.087542,
+      "expires": 1741342277.624119,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -325,87 +335,67 @@
       "value": "1",
       "domain": "www.capcut.com",
       "path": "/",
-      "expires": 1755533993.349333,
+      "expires": 1756030278.109543,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
-    },
-    {
-      "name": "msToken",
-      "value": "dVjT-r3iBX0LJeL1GNkisYa8MLdMmaI_Q6rX5cBUmNEamAylkoHporReB2Du6j5_hrRFYxCAw8og3expv9lwnlRQxJHDgwIjjiC7wFhgmszmRd-yOfT4Wjpf4K1n2Ag6xK8TRrwkBbO2",
-      "domain": ".capcutapi.com",
-      "path": "/",
-      "expires": 1740845993.703166,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "msToken",
-      "value": "dVjT-r3iBX0LJeL1GNkisYa8MLdMmaI_Q6rX5cBUmNEamAylkoHporReB2Du6j5_hrRFYxCAw8og3expv9lwnlRQxJHDgwIjjiC7wFhgmszmRd-yOfT4Wjpf4K1n2Ag6xK8TRrwkBbO2",
-      "domain": "www.capcut.com",
-      "path": "/",
-      "expires": 1747757993,
-      "httpOnly": false,
-      "secure": false,
-      "sameSite": "Lax"
     },
     {
       "name": "ttwid",
-      "value": "1|dNip93_0y_CQK9l0CptrRymLeMrcIW7gbMK1mD78ID4|1739981984|1698e56e44cde50f32386a727f53ea657bafd671bb0209bca2054febc005f80b",
+      "value": "1|9PXdkq3W0w50ijh3mkD_Ee4Y7dHTsocOoVpJ3Yf71no|1740478263|d6555ab275560da6a93149e7553bff64e21d362ba80f89d01f63018195bf3470",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517994.857704,
+      "expires": 1772014278.586843,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
-    },
-    {
-      "name": "MSPTC",
-      "value": "3cnPFWxwrxiBPfTrH37EYQOmh0-_M_VFU11Vqn6XKos",
-      "domain": ".bing.com",
-      "path": "/",
-      "expires": 1773677994.965328,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
     },
     {
       "name": "user_spaces_idc",
       "value": "{\"7472742396234171393\":\"sg1_gcp\"}",
       "domain": "www.capcut.com",
       "path": "/",
-      "expires": 1771517994.988573,
+      "expires": 1772014278.675581,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
+      "name": "MSPTC",
+      "value": "z5QZntXdI9SsXKcfTBTcdKFNk5_Tr5Rb_MDLXcfvhJA",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1774174279.761554,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
       "name": "_gcl_au",
-      "value": "1.1.2105308085.1739981995",
+      "value": "1.1.177634456.1740478279",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1747757995,
+      "expires": 1748254278,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga",
-      "value": "GA1.1.1330797592.1739981995",
+      "value": "GA1.1.871999222.1740478279",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517995,
+      "expires": 1772014278,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_ga_F9J0QP63RB",
-      "value": "GS1.1.1739981995.1.0.1739981995.60.0.0",
+      "value": "GS1.1.1740478278.1.0.1740478278.60.0.0",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1771517995,
+      "expires": 1772014278,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -415,37 +405,47 @@
       "value": "CheckForPermission",
       "domain": ".doubleclick.net",
       "path": "/",
-      "expires": 1739982895.41548,
+      "expires": 1740479179.165624,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
     },
     {
       "name": "_uetsid",
-      "value": "566bff00eedd11efb016b742298d5677",
+      "value": "d65283c0f36011efabca65dda505aa02",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1740068395,
+      "expires": 1740564679,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_uetvid",
-      "value": "566c5fd0eedd11ef9b5a636bb1fe3792",
+      "value": "d6533d20f36011ef83c2ed418fa3c5e2",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1773677995,
+      "expires": 1774174279,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "x_logid",
+      "value": "2025022510110514C809CE69F43E208409",
+      "domain": "www.capcut.com",
+      "path": "/",
+      "expires": 1740478401.30649,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_clsk",
-      "value": "7i3p08%7C1739981997314%7C2%7C0%7Ce.clarity.ms%2Fcollect",
+      "value": "i2qf48%7C1740478281387%7C2%7C1%7Ce.clarity.ms%2Fcollect",
       "domain": ".capcut.com",
       "path": "/",
-      "expires": 1740068397,
+      "expires": 1740564681,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -457,19 +457,19 @@
       "localStorage": [
         {
           "name": "LV_START_PAGE_BANNER_CONFIG_offline",
-          "value": "{\"expireTime\":1740068396838,\"data\":[{\"id\":92200000005,\"type\":\"video\",\"env\":[\"online\"],\"title_key\":\"\",\"title_color\":\"#FFFFFF\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FFFFFF\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_a07ea7f5d5d33ecfeba970ac24966914.png\",\"bg_color\":\"#027F60\",\"bg_style\":\"\",\"time_start\":\"2023/12/19 00:00:00\",\"time_end\":\"2023/12/25 23:59:59\",\"tab_active_color\":\"#027F60\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"},{\"id\":92200000006,\"type\":\"image\",\"env\":[\"online\"],\"title_key\":\"\",\"title_color\":\"#FFFFFF\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FFFFFF\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_a07ea7f5d5d33ecfeba970ac24966914.png\",\"bg_color\":\"#027F60\",\"bg_style\":\"\",\"time_start\":\"2023/12/19 00:00:00\",\"time_end\":\"2023/12/25 23:59:59\",\"tab_active_color\":\"#027F60\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"},{\"id\":92200000007,\"type\":\"image\",\"env\":[\"offline\",\"online\"],\"title_key\":\"\",\"title_color\":\"#FAFCEE\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FAFCEE\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_93de48cf71d02a816ded9b69ed4cb941.png\",\"bg_color\":\"#364ABD\",\"bg_style\":\"\",\"time_start\":\"2023/12/26 00:00:00\",\"time_end\":\"2024/01/02 23:59:59\",\"tab_active_color\":\"#364ABD\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"},{\"id\":92200000008,\"type\":\"video\",\"env\":[\"offline\",\"online\"],\"title_key\":\"\",\"title_color\":\"#FAFCEE\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FAFCEE\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_93de48cf71d02a816ded9b69ed4cb941.png\",\"bg_color\":\"#364ABD\",\"bg_style\":\"\",\"time_start\":\"2023/12/26 00:00:00\",\"time_end\":\"2024/01/02 23:59:59\",\"tab_active_color\":\"#364ABD\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"}]}"
+          "value": "{\"expireTime\":1740564680790,\"data\":[{\"id\":92200000005,\"type\":\"video\",\"env\":[\"online\"],\"title_key\":\"\",\"title_color\":\"#FFFFFF\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FFFFFF\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_a07ea7f5d5d33ecfeba970ac24966914.png\",\"bg_color\":\"#027F60\",\"bg_style\":\"\",\"time_start\":\"2023/12/19 00:00:00\",\"time_end\":\"2023/12/25 23:59:59\",\"tab_active_color\":\"#027F60\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"},{\"id\":92200000006,\"type\":\"image\",\"env\":[\"online\"],\"title_key\":\"\",\"title_color\":\"#FFFFFF\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FFFFFF\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_a07ea7f5d5d33ecfeba970ac24966914.png\",\"bg_color\":\"#027F60\",\"bg_style\":\"\",\"time_start\":\"2023/12/19 00:00:00\",\"time_end\":\"2023/12/25 23:59:59\",\"tab_active_color\":\"#027F60\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"},{\"id\":92200000007,\"type\":\"image\",\"env\":[\"offline\",\"online\"],\"title_key\":\"\",\"title_color\":\"#FAFCEE\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FAFCEE\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_93de48cf71d02a816ded9b69ed4cb941.png\",\"bg_color\":\"#364ABD\",\"bg_style\":\"\",\"time_start\":\"2023/12/26 00:00:00\",\"time_end\":\"2024/01/02 23:59:59\",\"tab_active_color\":\"#364ABD\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"},{\"id\":92200000008,\"type\":\"video\",\"env\":[\"offline\",\"online\"],\"title_key\":\"\",\"title_color\":\"#FAFCEE\",\"sub_title_key\":\"\",\"sub_title_color\":\"#FAFCEE\",\"link\":\"\",\"bg_image\":\"https://lf16-web-buz.capcut.com/obj/capcut-web-buz-us/bee_prod/biz_149/tos_93de48cf71d02a816ded9b69ed4cb941.png\",\"bg_color\":\"#364ABD\",\"bg_style\":\"\",\"time_start\":\"2023/12/26 00:00:00\",\"time_end\":\"2024/01/02 23:59:59\",\"tab_active_color\":\"#364ABD\",\"create_new_text_color\":\"\",\"create_new_bg_color\":\"\",\"create_new_bg_hover_color\":\"\"}]}"
         },
         {
           "name": "SLARDARwebmssdk",
-          "value": "JTdCJTIydXNlcklkJTIyOiUyMmNkMWZhZTkzLTYyZjctNDFjZi1hMmM0LTE3MmRiOThhMDBiZSUyMiwlMjJkZXZpY2VJZCUyMjolMjI2ZjIzZjAyNC1jODY1LTRmN2UtOGJjNS1mOWRmZDBmMjYwYzklMjIsJTIyZXhwaXJlcyUyMjoxNzQ3NzU3OTg5NTQ0JTdE"
+          "value": "JTdCJTIydXNlcklkJTIyOiUyMjk4NDkxY2U3LThjNzUtNDQxZS05MjlmLWNhMzAyNWZkYmZiYyUyMiwlMjJkZXZpY2VJZCUyMjolMjJlNTJjYmZmZS1kY2UyLTQwMmMtODA3Yy1hZGQyZWZhZTYyODklMjIsJTIyZXhwaXJlcyUyMjoxNzQ4MjU0MjcyMjA3JTdE"
         },
         {
           "name": "_uetvid_exp",
-          "value": "Mon, 16 Mar 2026 16:19:55 GMT"
+          "value": "Sun, 22 Mar 2026 10:11:19 GMT"
         },
         {
           "name": "__tea_cache_tokens_348188",
-          "value": "{\"web_id\":\"7473165635770942984\",\"user_unique_id\":\"7472742588837331985\",\"timestamp\":1739981997581,\"_type_\":\"default\"}"
+          "value": "{\"web_id\":\"7475297123211593233\",\"user_unique_id\":\"7472742588837331985\",\"timestamp\":1740478281742,\"_type_\":\"default\"}"
         },
         {
           "name": "LOGIN_TYPE_FOR_FIRST_LOGIN_NOTICE",
@@ -477,11 +477,11 @@
         },
         {
           "name": "xmst",
-          "value": "dVjT-r3iBX0LJeL1GNkisYa8MLdMmaI_Q6rX5cBUmNEamAylkoHporReB2Du6j5_hrRFYxCAw8og3expv9lwnlRQxJHDgwIjjiC7wFhgmszmRd-yOfT4Wjpf4K1n2Ag6xK8TRrwkBbO2"
+          "value": "Bb4diqprluiv0-yEaYoui6OiqyC1eLpHGv4kWiZ_choPNMM6nUXRP34VYEmnfLam_YJU6FjzElZ8pkXDZlz6BUcg2GuGQ_4fM-jzCx30GEzEmVLMWnDzgAGSLVLxrcOgm0vxY3ilRLAl"
         },
         {
           "name": "_uetsid",
-          "value": "566bff00eedd11efb016b742298d5677"
+          "value": "d65283c0f36011efabca65dda505aa02"
         },
         {
           "name": "xmsi",
@@ -493,23 +493,23 @@
         },
         {
           "name": "_ccfs_1.0.5_consent",
-          "value": "{\"consentEntityValidationMap\":{},\"both\":\"U2FsdGVkX1/G1vazdaQMyzXLLFUtN5HB1VKkfYVGEza9YSqOZJRiNkeztzN9X9B/UABqNEluJdmry0Eo+tCSWg==\",\"device\":\"U2FsdGVkX1+OICPAcnmkBwfgCUA8epam+vkJ0OspFomXoJhXqBtLwag+P7JgxQfmeNtAzYyr6p1A70gFwgPLLQ==\",\"user\":\"\"}"
+          "value": "{\"consentEntityValidationMap\":{},\"both\":\"U2FsdGVkX1/EegU7ElnvqAJExtzFLWGxc8UjEQBMibEa8EzufrbijPmvPsVErExci+T+FpKGLvCHUF+7CcNpVg==\",\"device\":\"U2FsdGVkX187cr2sk9CAE7l/qh0T6N+PtkJ1DQpWMlY+NluBIKTGv7N6gUThXcW16WlCtrvOgoCBrPN1idZZnw==\",\"user\":\"\"}"
         },
         {
           "name": "_uetsid_exp",
-          "value": "Thu, 20 Feb 2025 16:19:55 GMT"
+          "value": "Wed, 26 Feb 2025 10:11:19 GMT"
         },
         {
           "name": "SLARDARcc_web",
-          "value": "{\"userId\":\"e5fd290b-5de9-4a92-88a9-537dea59621a\",\"deviceId\":\"b338a33e-730c-491d-aa8e-9716e01cbf7b\"}"
+          "value": "{\"userId\":\"731da85d-3e9b-490f-a60b-cfc118b48fc2\",\"deviceId\":\"eac46c76-a5ac-4ae6-a8d8-47e45724a629\"}"
         },
         {
           "name": "creator-activity-fetch-since",
-          "value": "1739981997317"
+          "value": "1740478281391"
         },
         {
           "name": "_uetvid",
-          "value": "566c5fd0eedd11ef9b5a636bb1fe3792"
+          "value": "d6533d20f36011ef83c2ed418fa3c5e2"
         },
         {
           "name": "__tea_cache_first_348188",
@@ -517,11 +517,11 @@
         },
         {
           "name": "__lvweb_user_status",
-          "value": "{\"uid\":\"7472742588837331985\",\"timestamp\":1739981997442}"
+          "value": "{\"uid\":\"7472742588837331985\",\"timestamp\":1740478281581}"
         },
         {
           "name": "msToken",
-          "value": "dVjT-r3iBX0LJeL1GNkisYa8MLdMmaI_Q6rX5cBUmNEamAylkoHporReB2Du6j5_hrRFYxCAw8og3expv9lwnlRQxJHDgwIjjiC7wFhgmszmRd-yOfT4Wjpf4K1n2Ag6xK8TRrwkBbO2"
+          "value": "Bb4diqprluiv0-yEaYoui6OiqyC1eLpHGv4kWiZ_choPNMM6nUXRP34VYEmnfLam_YJU6FjzElZ8pkXDZlz6BUcg2GuGQ_4fM-jzCx30GEzEmVLMWnDzgAGSLVLxrcOgm0vxY3ilRLAl"
         }
       ]
     }

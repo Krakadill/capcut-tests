@@ -1,7 +1,8 @@
-import { test, expect } from "@playwright/test";
+import { test } from "@playwright/test";
+import { expect } from "chai";
 
-test.describe("new image feature", () => {
-  test("creating new image", async ({ page }) => {
+test.describe("Test suite for Image editing feature", () => {
+  test("User tries to create new image", async ({ page }) => {
     test.setTimeout(60000);
     await page.goto(
       "https://www.capcut.com/my-edit?enter_from=login&start_tab=video"
@@ -12,6 +13,7 @@ test.describe("new image feature", () => {
     await page.locator(".image-LwB0PG > img").first().click();
     const page2 = await page2Promise;
     await page2.getByRole("dialog").getByText("Create").click();
-    await expect(page2.url()).toContain("editor-graphic");
+    const redirectUrl = await page2.url();
+    expect(redirectUrl).to.include("editor-graphic");
   });
 });
