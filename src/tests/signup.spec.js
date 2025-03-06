@@ -1,23 +1,19 @@
 import { test } from "@playwright/test";
 import { expect } from "chai";
 import SignupPage from "../po/pages/signup.page";
+import { invalidEmail } from "./test-data/credentials";
 
 test.skip(false, "Skipping signup tests for now");
-
 test.use({ storageState: "emptyStorageState.json" });
 
 test.describe("Test suite for sign-up functionality", () => {
-  test("User should get error message for entering invalid Email", async ({
-    page,
-  }) => {
-    const signupPage = new SignupPage(page);
-
+  let signupPage;
+  test.beforeEach(async ({ page }) => {
+    signupPage = new SignupPage(page);
+  });
+  test("User should get error message for entering invalid Email", async () => {
     await signupPage.open("https://www.capcut.com/signup");
-    await signupPage.emailInput.click();
-    await signupPage.enterEmail("Wrong credential");
-    await signupPage.clickContinue();
-
-    const errMsgText = await signupPage.getErrorMessage();
-    expect(errMsgText).to.equal("Enter a valid email address");
+    await signupPage.enterWrongEmail(invalidEmail);
+    expect(await signupPage.isErrorMessageVisible()).to.be.true;
   });
 });

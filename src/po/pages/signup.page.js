@@ -7,14 +7,13 @@ class SignupPage extends BasePage {
     this.continueButton = page.getByRole("button", { name: "Continue" });
     this.errorMessage = page.getByText("Enter a valid email address");
   }
-  async enterEmail(email) {
+  async enterWrongEmail(email) {
+    await this.emailInput.click();
     await this.emailInput.fill(email);
-  }
-  async clickContinue() {
     await this.continueButton.click();
   }
-  async getErrorMessage() {
-    return await this.errorMessage.innerText();
+  async isErrorMessageVisible() {
+    return await this.getErrorMsg(this.errorMessage);
   }
 }
 export default SignupPage;
