@@ -11,7 +11,7 @@ test.describe("Test suite for sign-up functionality", () => {
   test.beforeEach(async ({ page }) => {
     signupPage = new SignupPage(page);
   });
-  test("User should get error message for entering invalid Email", async () => {
+  test("User signs up with invalid email", async () => {
     await signupPage.open("https://www.capcut.com/signup");
     await signupPage.enterWrongEmail(invalidEmail);
     expect(await signupPage.isErrorMessageVisible()).to.be.true;
