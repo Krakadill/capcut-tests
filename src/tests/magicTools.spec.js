@@ -1,17 +1,18 @@
 import { test } from "@playwright/test";
 import { expect } from "chai";
+import HomePage from "../po/pages/home.page";
 
 test.describe("testing AI tools functionality", () => {
-  test("user tries text to speech feature", async ({ page }) => {
+  let homePage;
+  test.beforeEach(async ({ page }) => {
+    homePage = new HomePage(page);
+  });
+  test("user tries text to speech feature", async () => {
     test.setTimeout(60000);
-
-    await page.goto(
+    await homePage.open(
       "https://www.capcut.com/my-edit?enter_from=login&start_tab=video"
     );
-    await page.getByText("Magic tools").click();
-    const textToSpeechBtn = await page
-      .getByText("Text to speech", { exact: true })
-      .nth(1);
+    const textToSpeechBtn = await homePage.openTextToSpeech();
     expect(await textToSpeechBtn.isVisible()).to.be.true;
   });
 });
