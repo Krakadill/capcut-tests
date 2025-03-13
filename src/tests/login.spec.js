@@ -12,7 +12,6 @@ test.describe("Test suite for login feature", () => {
     loginPage = new LoginPage(page);
   });
   test("User logs-in with valid credentials", async () => {
-    test.setTimeout(60000);
     await loginPage.open("https://www.capcut.com/login");
     const currentUrl = await loginPage.login(validEmail, validPassword);
     expect(currentUrl).to.include("start_tab=video");
