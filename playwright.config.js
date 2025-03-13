@@ -9,9 +9,10 @@ const __dirname = path.dirname(__filename);
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  globalSetup: process.env.SKIP_GLOBAL_SETUP
-    ? undefined
-    : path.resolve(__dirname, "global-setup.js"),
+  globalSetup:
+    process.env.RUN_GLOBAL_SETUP === "true"
+      ? path.resolve(__dirname, "global-setup.js")
+      : undefined,
   testDir: "./src/tests",
   /* Run tests in files in parallel */
   fullyParallel: true,

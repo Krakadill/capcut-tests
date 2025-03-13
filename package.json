@@ -4,10 +4,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "loggedin": "cross-env SKIP_GLOBAL_SETUP=true npx playwright test",
-    "headedIn": "cross-env SKIP_GLOBAL_SETUP=true npx playwright test --headed",
-    "loggedout": "npx playwright test",
-    "api": "cross-env SKIP_GLOBAL_SETUP=true npx playwright test api"
+    "loggedin": "npx playwright test",
+    "headedIn": "npx playwright test --headed",
+    "loggedout": "cross-env RUN_GLOBAL_SETUP=true npx playwright test",
+    "api": "npx playwright test api"
   },
   "keywords": [],
   "author": "",
