@@ -7,16 +7,22 @@
     "loggedin": "npx playwright test",
     "headedIn": "npx playwright test --headed",
     "loggedout": "cross-env RUN_GLOBAL_SETUP=true npx playwright test",
-    "api": "npx playwright test api"
+    "api": "npx playwright test api",
+    "lint": "npx eslint src/tests --ext .js",
+    "format": "prettier --write src/tests"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@eslint/js": "^9.22.0",
     "@playwright/test": "^1.50.1",
     "@types/node": "^22.13.4",
-    "cross-env": "^7.0.3"
+    "cross-env": "^7.0.3",
+    "eslint": "^9.22.0",
+    "globals": "^16.0.0",
+    "prettier": "3.5.3"
   },
   "dependencies": {
     "axios": "^1.8.2",
